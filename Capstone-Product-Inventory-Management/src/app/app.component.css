@@ -1,0 +1,37 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Main Layout */
+main {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Router Outlet Container */
+router-outlet {
+    display: block;
+    width: 100%;
+}
+
+/* Header and Footer Styling */
+app-header, app-footer {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}
